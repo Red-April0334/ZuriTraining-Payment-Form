@@ -1,0 +1,112 @@
+* {box-sizing: border-box}
+
+body{
+  margin:0;
+  padding:0;
+  scroll-behavior: smooth;
+}
+
+h4{
+  color: black;
+  background-color: #a1de93;
+  line-height: 1.6;
+  font: 25px Arial, sans-serif;
+  text-align: left;
+  padding: 10px;
+}
+
+i{
+  padding: 7px;
+  margin-left: 5px;
+}
+
+.wrapper{
+  background-color: #f7f48b;
+  color: #a1de93;
+  padding: 20px;
+}
+.wrapper h2{
+  font: 20px Arial, sans-serif;
+  text-align: center;
+  word-spacing: 8px;
+  font-weight: bold;
+  color:black;
+}
+
+form{
+  background-color: white;
+  color: black;
+  padding: 20px;
+}
+
+.input-group{
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  border: none;
+}
+
+.input-box{
+  margin:12px;
+  display: block;
+  border: none;
+  font: 16px Arial, sans-serif;
+  border-radius: 25px;
+}
+
+.icon, fa fa-envelope {
+  padding: 2px;
+  background: #a1de93;
+  color: white;
+  min-width: 40px;
+  text-align: center;
+  margin-top: 1em;
+}
+
+input[type=text], [type=email],[type=tel], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid  #f7f48b;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  font: 10px Arial, sans-serif;
+  margin-top: 1em;
+}
+
+span{
+  color:black;
+}
+
+button {
+  background-color: #f7f48b;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+select{
+  padding: 15px 20px;
+  border: 1px solid #a1de93;
+  border-radius:10px;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font: 17px Arial, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
